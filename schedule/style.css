@@ -115,9 +115,11 @@ main {
     margin-top: 32px;
     background: none;
     width: 60px;
-    height: 24px;
+    height: 30px;
     border: solid 2px var(--white);
     border-radius: 8px;
+    
+    font-weight: bold;
 }
 
 #map-btn:hover {
