@@ -96,6 +96,7 @@ main {
 .event-info > h2 {
     font-family: var(--regular);
     color: var(--white);
+    margin-top: 24px;
 }
 
 .event-location {
