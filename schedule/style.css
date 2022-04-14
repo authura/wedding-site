@@ -70,6 +70,7 @@ nav a:after {
 main {
     margin: 64px;
     margin-top: 100px;
+    
 }
 
 .hero-container {
@@ -115,11 +116,12 @@ main {
     margin-top: 32px;
     background: none;
     width: 60px;
-    height: 30px;
+    height: 40px;
     border: solid 2px var(--white);
-    border-radius: 8px;
-    
+    border-radius: 16px;
+    text-decoration: none;
     font-weight: bold;
+    font-size: 16px;
 }
 
 #map-btn:hover {
@@ -127,10 +129,6 @@ main {
     color: black;
     background-color: var(--white);
 
-}
-
-#map-btn:after {
-    transition: .5s ease-in-out;
 }
 
 footer {
